@@ -54,7 +54,6 @@ body {
 
 main {
   background-image: url(images/intro.jpg);
-  max-width: 1920px;
   padding: 0px 18.75%;
   height: 720px;
   margin: 20px auto;
@@ -75,7 +74,7 @@ main {
 
 .banner {
   display: flex;
-  margin: 0 18.75%;
+  justify-content: center;
 }
 
 .banner img {
@@ -93,7 +92,7 @@ main {
 
 .catalog {
   max-width: 1200px;
-  margin: 0 18.75%;
+  margin: 0px 18.75%;
 }
 
 .catalog-items {
@@ -106,4 +105,32 @@ main {
   height: 372px;
   border-radius: 10px;
   background: #22222f;
+}
+
+.news-items {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.news-item {
+  height: 465px;
+  width: 386px;
+  background: #14141d;
+}
+
+.footer {
+  margin-top: 80px;
+  margin-bottom: 35px;
+  display: flex;
+  justify-content: center;
+  gap: 250px;
+}
+
+.footer-item {
+  color: #fff;
+}
+
+.footer-rules-item {
+  color: #fff;
 }
