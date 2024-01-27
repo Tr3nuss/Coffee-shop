@@ -8,10 +8,9 @@ body {
   background: #020204;
 }
 
-.container {
+.header-container {
   max-width: 1200px;
-  margin: 6px auto;
-  padding: 0 20px;
+  margin: 6px 18.75%;
 }
 
 .first-header-nav {
@@ -51,4 +50,60 @@ body {
 .header-img-items {
   display: flex;
   gap: 20px;
+}
+
+main {
+  background-image: url(images/intro.jpg);
+  max-width: 1920px;
+  padding: 0px 18.75%;
+  height: 720px;
+  margin: 20px auto;
+  background-size: 100% 100%;
+}
+
+.main-title {
+  color: #fff;
+}
+
+.main-description {
+  color: #fff;
+}
+
+.buttons-descriptors {
+  display: flex;
+}
+
+.banner {
+  display: flex;
+  margin: 0 18.75%;
+}
+
+.banner img {
+  width: 600px;
+  height: 330px;
+  border-radius: 0px;
+}
+
+.banner-description {
+  width: 600px;
+  height: 330px;
+  background: #14141d;
+  border-radius: 10px;
+}
+
+.catalog {
+  max-width: 1200px;
+  margin: 0 18.75%;
+}
+
+.catalog-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.catalog-item {
+  height: 372px;
+  border-radius: 10px;
+  background: #22222f;
 }
