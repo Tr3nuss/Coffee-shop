@@ -206,6 +206,22 @@ main {
   background: #14141d;
 }
 
+.news-item-title {
+  color: #fff;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.news-item-description {
+  color: #dfdfdf;
+  padding-top: 13px;
+  padding-left: 20px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
 .footer {
   margin-top: 80px;
   margin-bottom: 35px;
