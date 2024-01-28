@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Coffee Shop</title>
@@ -26,15 +32,17 @@
           <li><a class="second-header-item">RESERVATION</a></li>
         </ul>
 
-        <img src="images/—Pngtree—coffee logo_5898135 1.png" alt="" />
+        <img src="images/—Pngtree—coffee logo_5898135 1.png" />
 
         <div class="header-img-items">
-          <img src="images/user 1.png" alt="" />
-          <img src="images/favorite 1.png" alt="" />
-          <img src="images/cart 1.png" alt="" />
+          <img src="images/user 1.png" />
+          <img src="images/favorite 1.png" />
+          <img src="images/cart 1.png" />
         </div>
       </nav>
     </header>
+
+    <div class="line"></div>
 
     <main class="main">
       <p class="main-title">
@@ -48,16 +56,16 @@
       </p>
 
       <div class="buttons-descriptiors">
-        <button>BUY NOW</button>
-        <button>READ MORE</button>
+        <button class="buy-now">BUY NOW</button>
+        <button class="read-more">READ MORE</button>
       </div>
     </main>
 
     <article class="banner">
-      <img src="images/coffee 2.png" alt="" />
-      <div class="banner-description">
-        <p>Roasted Coffee</p>
-        <p>
+      <img src="images/coffee 2.png" />
+      <div class="banner-block">
+        <p class="banner-block-title">Roasted Coffee</p>
+        <p class="banner-block-description">
           There are many variations of passages of Lorem Ipsum available, but
           the majority have suffered alteration in some form, by injected
           humour, or randomised words which don't look even slightly believable.
@@ -71,20 +79,69 @@
     </article>
 
     <section class="catalog">
-      <span class="catalog-title">CATALOG</span>
+      <div class="catalog-title">CATALOG</div>
 
-      <nav class="catalog-items">
-        <div class="catalog-item"></div>
-        <div class="catalog-item"></div>
-        <div class="catalog-item"></div>
-        <div class="catalog-item"></div>
-        <div class="catalog-item"></div>
-        <div class="catalog-item"></div>
+      <nav class="catalog-items-1">
+        <div class="catalog-item">
+          <img class="catalog-item-product" src="images/product 1.png" />
+          <p class="catalog-item-title">LAVAZZA COFFEE</p>
+          <div class="catalog-item-info">
+            <p class="catalog-item-price">$19.99</p>
+            <img class="catalog-item-favorite" src="images/favorite 1.png" />
+          </div>
+        </div>
+
+        <div class="catalog-item">
+          <img class="catalog-item-product" src="images/product 2.png" />
+          <p class="catalog-item-title">LAVAZZA COFFEE</p>
+          <div class="catalog-item-info">
+            <p class="catalog-item-price">$19.99</p>
+            <img class="catalog-item-favorite" src="images/favorite 1.png" />
+          </div>
+        </div>
+
+        <div class="catalog-item">
+          <img class="catalog-item-product" src="images/product 2.png" />
+          <p class="catalog-item-title">LAVAZZA COFFEE</p>
+          <div class="catalog-item-info">
+            <p class="catalog-item-price">$19.99</p>
+            <img class="catalog-item-favorite" src="images/favorite 1.png" />
+          </div>
+        </div>
+      </nav>
+
+      <nav class="catalog-items-2">
+        <div class="catalog-item">
+          <img class="catalog-item-product" src="images/product 2.png" />
+          <p class="catalog-item-title">LAVAZZA COFFEE</p>
+          <div class="catalog-item-info">
+            <p class="catalog-item-price">$19.99</p>
+            <img class="catalog-item-favorite" src="images/favorite 1.png" />
+          </div>
+        </div>
+
+        <div class="catalog-item">
+          <img class="catalog-item-product" src="images/product 1.png" />
+          <p class="catalog-item-title">LAVAZZA COFFEE</p>
+          <div class="catalog-item-info">
+            <p class="catalog-item-price">$19.99</p>
+            <img class="catalog-item-favorite" src="images/favorite 1.png" />
+          </div>
+        </div>
+
+        <div class="catalog-item">
+          <img class="catalog-item-product" src="images/product 2.png" />
+          <p class="catalog-item-title">LAVAZZA COFFEE</p>
+          <div class="catalog-item-info">
+            <p class="catalog-item-price">$19.99</p>
+            <img class="catalog-item-favorite" src="images/favorite 1.png" />
+          </div>
+        </div>
       </nav>
     </section>
 
     <section>
-      <span class="news-title">NEWS</span>
+      <div class="news-title">NEWS</div>
 
       <nav class="news-items">
         <div class="news-item"></div>
@@ -93,10 +150,10 @@
       </nav>
     </section>
 
-    <hr />
+    <div class="line_2"></div>
 
     <footer class="footer">
-      <img src="images/—Pngtree—coffee logo_5898135 1.png" alt="" />
+      <img src="images/—Pngtree—coffee logo_5898135 1.png" />
 
       <ul class="footer-nav">
         <li><a class="footer-item">HOME</a></li>
