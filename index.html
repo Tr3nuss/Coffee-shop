@@ -26,18 +26,22 @@
 
       <nav class="second-header-nav">
         <ul class="second-header-items">
-          <li><a class="second-header-item">HOME</a></li>
-          <li><a class="second-header-item">ABOUT</a></li>
-          <li><a class="second-header-item">MENU</a></li>
-          <li><a class="second-header-item">RESERVATION</a></li>
+          <li><a class="second-header-item" href="index.html">HOME</a></li>
+          <li>
+            <a class="second-header-item" href="#banner-block-title">ABOUT</a>
+          </li>
+          <li><a class="second-header-item" href="#catalog-title">MENU</a></li>
+          <li>
+            <a class="second-header-item" href="cart.html">PURCHASE</a>
+          </li>
         </ul>
 
         <img src="images/—Pngtree—coffee logo_5898135 1.png" />
 
         <div class="header-img-items">
-          <img src="images/user 1.png" />
-          <img src="images/favorite 1.png" />
-          <img src="images/cart 1.png" />
+          <a href="index.html"><img src="images/user 1.png" /></a>
+          <a href="#catalog-title"><img src="images/favorite 1.png" /></a>
+          <a href="cart.html"><img src="images/cart 1.png" /></a>
         </div>
       </nav>
     </header>
@@ -55,8 +59,8 @@
         coals in a brazier. given an opportunity to sample.
       </p>
 
-      <div class="buttons-descriptiors">
-        <button class="buy-now">BUY NOW</button>
+      <div class="buttons-descriptors">
+        <button onclick="Counter()" class="buy-now">BUY NOW</button>
         <button class="read-more">READ MORE</button>
       </div>
     </main>
@@ -64,7 +68,7 @@
     <article class="banner">
       <img src="images/coffee 2.png" />
       <div class="banner-block">
-        <p class="banner-block-title">Roasted Coffee</p>
+        <p id="banner-block-title">Roasted Coffee</p>
         <p class="banner-block-description">
           There are many variations of passages of Lorem Ipsum available, but
           the majority have suffered alteration in some form, by injected
@@ -79,7 +83,7 @@
     </article>
 
     <section class="catalog">
-      <div class="catalog-title">CATALOG</div>
+      <div id="catalog-title">CATALOG</div>
 
       <nav class="catalog-items-1">
         <div class="catalog-item">
@@ -183,18 +187,28 @@
       <img src="images/—Pngtree—coffee logo_5898135 1.png" />
 
       <ul class="footer-nav">
-        <li><a class="footer-item">HOME</a></li>
-        <li><a class="footer-item">ABOUT</a></li>
-        <li><a class="footer-item">MENU</a></li>
-        <li><a class="footer-item">RESERVATION</a></li>
+        <li><a class="footer-item" href="index.html">HOME</a></li>
+        <li><a class="footer-item" href="#banner-block-title">ABOUT</a></li>
+        <li><a class="footer-item" href="#catalog-title">MENU</a></li>
+        <li><a class="footer-item" href="cart.html">PURCHASE</a></li>
       </ul>
 
       <ul class="footer-rules">
-        <li class="footer-rules-item">CONTRACTS</li>
-        <li class="footer-rules-item">PRIVACY POLICY</li>
+        <li>
+          <a class="footer-rules-item" href="https://github.com/Tr3nuss"
+            >PROJECTS</a
+          >
+        </li>
+        <li>
+          <a
+            class="footer-rules-item"
+            href="https://en.wikipedia.org/wiki/Privacy_policy"
+            >PRIVACY POLICY</a
+          >
+        </li>
       </ul>
     </footer>
 
-    <script src="main.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>
