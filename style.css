@@ -146,6 +146,11 @@ main {
   padding: 0px 30px 30px 30px;
 }
 
+.catalog {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 #catalog-title {
   color: #fff;
   font-weight: 900;
@@ -154,8 +159,7 @@ main {
   text-align: center;
 }
 
-.catalog-items-1,
-.catalog-items-2 {
+.catalog-items {
   display: flex;
   justify-content: center;
   margin-top: 20px;

@@ -1,3 +1,3 @@
 function Counter() {
-  location.href = "card.html";
+  location.href = "cart.html";
 }
