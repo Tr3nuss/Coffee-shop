@@ -278,9 +278,42 @@ main {
   margin-top: 80px;
 }
 
+.lines {
+  width: 50px;
+  height: 7px;
+  margin: 5px;
+  background: grey;
+  position: relative;
+}
+
+.burger {
+  position: absolute;
+  display: none;
+}
+
+.second-header-burger-items.active {
+  display: block;
+}
+
+.burger-menu {
+  display: none;
+}
+
 @media (max-width: 1215px) {
   .catalog-item {
     max-width: 500px;
+  }
+
+  .catalog-item-product {
+    padding: 20px 0px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .catalog-item-title {
+    padding-left: 0px;
+    text-align: center;
   }
 }
 
@@ -288,10 +321,39 @@ main {
   .footer {
     gap: 100px;
   }
+
+  .header-container {
+    max-width: 500px;
+    margin: 6px auto;
+  }
+
+  .second-header-items {
+    display: none;
+  }
+
+  .burger-menu {
+    display: block;
+    color: grey;
+    font-size: 36px;
+  }
+
+  .show-menu {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 @media (max-width: 485px) {
   .banner-block {
     height: 500px;
+  }
+
+  .banner img {
+    width: 350px;
+  }
+
+  .banner-block {
+    width: 350px;
   }
 }
