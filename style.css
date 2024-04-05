@@ -79,7 +79,7 @@ body {
 
 main {
   background-image: url(images/intro.svg);
-  padding: 0px 0px 0px 18.75%;
+  padding: 0px 18.75%;
   background-size: cover;
   background-position: center;
   height: 720px;
@@ -133,6 +133,11 @@ main {
   outline: none;
   border: 1px solid #666681;
   margin-left: 20px;
+  transition: 0.3s linear;
+}
+
+.read-more:hover {
+  background: gray;
 }
 
 .banner {
@@ -260,8 +265,7 @@ main {
 
 .news-item-description {
   color: #dfdfdf;
-  padding-top: 13px;
-  padding-left: 20px;
+  padding: 13px 15px 0px 15px;
   font-size: 16px;
   font-weight: 400;
 }
@@ -330,6 +334,7 @@ main {
 
 .burger-menu {
   display: none;
+  transition: opacity 0.4s, visibility 0.4s;
 }
 
 .second-header-burger-items {
@@ -359,6 +364,7 @@ main {
 .navbar,
 .close-field {
   color: #fff;
+  transition: opacity 0.4s, visibility 0.4s;
 }
 
 .burger-field-list {
@@ -379,6 +385,14 @@ main {
   color: #fff;
   font-size: 18px;
   font-weight: 600;
+}
+
+.active-burger-field {
+  position: fixed;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 @media (max-width: 1215px) {
@@ -408,14 +422,6 @@ main {
     gap: 100px;
   }
 
-  .burger-field {
-    position: fixed;
-    display: block;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
   .burger-content {
     display: block;
   }
@@ -434,13 +440,6 @@ main {
     color: grey;
     font-size: 36px;
   }
-
-  .show-menu {
-    display: flex !important;
-    flex-direction: column;
-    align-items: left;
-    border: 1px solid #020204;
-  }
 }
 
 @media (max-width: 485px) {
@@ -454,5 +453,11 @@ main {
 
   .banner-block {
     width: 350px;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer {
+    gap: 40px;
   }
 }
