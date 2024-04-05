@@ -14,32 +14,51 @@
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
   </head>
   <body>
+    <div class="burger-field">
+      <div class="navbar-tab">
+        <h1 class="navbar">Navbar</h1>
+        <p class="close-field">{крестик}</p>
+      </div>
+
+      <ul class="burger-field-list">
+        <li><a class="burger-field-list-item" href="#">HOME</a></li>
+        <li><a class="burger-field-list-item" href="#">ABOUT</a></li>
+        <li><a class="burger-field-list-item" href="#">MENU</a></li>
+        <li><a class="burger-field-list-item" href="#">PURCHASE</a></li>
+      </ul>
+    </div>
+
     <header class="header-container">
-      <nav class="first-header-nav">
+      <nav class="second-header-nav">
+        <img src="images/—Pngtree—coffee logo_5898135 1.svg" />
+
         <ul class="first-header-items">
           <li><a class="first-header-item" href="#">RU</a></li>
           <li><a class="first-header-item" href="#">EN</a></li>
         </ul>
 
-        <div class="phone-number">+371000000</div>
-      </nav>
-
-      <nav class="second-header-nav">
-        <div class="burger-menu">&#9776;</div>
+        <div class="burger-content">
+          <div class="burger-menu">&#9776;</div>
+        </div>
 
         <ul class="second-header-items">
           <li><a class="second-header-item" href="index.html">HOME</a></li>
-          <li><a class="second-header-item">ABOUT</a></li>
-          <li><a class="second-header-item">MENU</a></li>
-          <li><a class="second-header-item">RESERVATION</a></li>
+          <li>
+            <a class="second-header-item" href="#banner-block-title">ABOUT</a>
+          </li>
+          <li><a class="second-header-item" href="#catalog-title">MENU</a></li>
+          <li>
+            <a class="second-header-item" href="cart.html" target="_blank"
+              >PURCHASE</a
+            >
+          </li>
         </ul>
 
-        <img src="images/—Pngtree—coffee logo_5898135 1.png" />
+        <div class="phone-number">+3 710 000 00</div>
 
         <div class="header-img-items">
-          <a href="index.html"><img src="images/user 1.png" /></a>
-          <a href="#catalog-title"><img src="images/favorite 1.png" /></a>
-          <a href="cart.html"><img src="images/cart 1.png" /></a>
+          <a href="#catalog-title"><img src="images/favorite 1.svg" /></a>
+          <a href="cart.html"><img src="images/cart 1.svg" /></a>
         </div>
       </nav>
     </header>
@@ -58,13 +77,13 @@
       </p>
 
       <div class="buttons-descriptors">
-        <button onclick="Counter()" class="buy-now">BUY NOW</button>
+        <button onclick="Counter" class="buy-now">BUY NOW</button>
         <button class="read-more">READ MORE</button>
       </div>
     </main>
 
     <article class="banner">
-      <img src="images/coffee 2.png" />
+      <img src="images/coffee 2.svg" />
       <div class="banner-block">
         <p id="banner-block-title">Roasted Coffee</p>
         <p class="banner-block-description">
@@ -85,56 +104,56 @@
 
       <nav class="catalog-items">
         <div class="catalog-item">
-          <img class="catalog-item-product" src="images/product 1.png" />
+          <img class="catalog-item-product" src="images/product 1.svg" />
           <p class="catalog-item-title">LAVAZZA COFFEE</p>
           <div class="catalog-item-info">
             <p class="catalog-item-price">$19.99</p>
-            <img class="catalog-item-favorite" src="images/favorite 1.png" />
+            <img class="catalog-item-favorite" src="images/favorite 1.svg" />
           </div>
         </div>
 
         <div class="catalog-item">
-          <img class="catalog-item-product" src="images/product 2.png" />
+          <img class="catalog-item-product" src="images/product 2.svg" />
           <p class="catalog-item-title">LAVAZZA COFFEE</p>
           <div class="catalog-item-info">
             <p class="catalog-item-price">$19.99</p>
-            <img class="catalog-item-favorite" src="images/favorite 1.png" />
+            <img class="catalog-item-favorite" src="images/favorite 1.svg" />
           </div>
         </div>
 
         <div class="catalog-item">
-          <img class="catalog-item-product" src="images/product 2.png" />
+          <img class="catalog-item-product" src="images/product 2.svg" />
           <p class="catalog-item-title">LAVAZZA COFFEE</p>
           <div class="catalog-item-info">
             <p class="catalog-item-price">$19.99</p>
-            <img class="catalog-item-favorite" src="images/favorite 1.png" />
+            <img class="catalog-item-favorite" src="images/favorite 1.svg" />
           </div>
         </div>
 
         <div class="catalog-item">
-          <img class="catalog-item-product" src="images/product 2.png" />
+          <img class="catalog-item-product" src="images/product 2.svg" />
           <p class="catalog-item-title">LAVAZZA COFFEE</p>
           <div class="catalog-item-info">
             <p class="catalog-item-price">$19.99</p>
-            <img class="catalog-item-favorite" src="images/favorite 1.png" />
+            <img class="catalog-item-favorite" src="images/favorite 1.svg" />
           </div>
         </div>
 
         <div class="catalog-item">
-          <img class="catalog-item-product" src="images/product 1.png" />
+          <img class="catalog-item-product" src="images/product 1.svg" />
           <p class="catalog-item-title">LAVAZZA COFFEE</p>
           <div class="catalog-item-info">
             <p class="catalog-item-price">$19.99</p>
-            <img class="catalog-item-favorite" src="images/favorite 1.png" />
+            <img class="catalog-item-favorite" src="images/favorite 1.svg" />
           </div>
         </div>
 
         <div class="catalog-item">
-          <img class="catalog-item-product" src="images/product 2.png" />
+          <img class="catalog-item-product" src="images/product 2.svg" />
           <p class="catalog-item-title">LAVAZZA COFFEE</p>
           <div class="catalog-item-info">
             <p class="catalog-item-price">$19.99</p>
-            <img class="catalog-item-favorite" src="images/favorite 1.png" />
+            <img class="catalog-item-favorite" src="images/favorite 1.svg" />
           </div>
         </div>
       </nav>
@@ -145,7 +164,7 @@
 
       <nav class="news-items">
         <div class="news-item">
-          <img src="images/coffee 1.png" />
+          <img src="images/coffee 1.svg" />
           <p class="news-item-title">LAVAZZA COFFEE</p>
           <p class="news-item-description">
             There are many variations of passages of Lorem Ipsum available, but
@@ -155,7 +174,7 @@
           </p>
         </div>
         <div class="news-item">
-          <img src="images/coffee 2.png" />
+          <img src="images/coffee 2.svg" />
           <p class="news-item-title">LAVAZZA COFFEE</p>
           <p class="news-item-description">
             There are many variations of passages of Lorem Ipsum available, but
@@ -165,7 +184,7 @@
           </p>
         </div>
         <div class="news-item">
-          <img src="images/coffee 3.png" />
+          <img src="images/coffee 3.svg" />
           <p class="news-item-title">LAVAZZA COFFEE</p>
           <p class="news-item-description">
             There are many variations of passages of Lorem Ipsum available, but
@@ -180,7 +199,7 @@
     <div class="line_2"></div>
 
     <footer class="footer">
-      <img src="images/—Pngtree—coffee logo_5898135 1.png" />
+      <img src="images/—Pngtree—coffee logo_5898135 1.svg" />
 
       <ul class="footer-nav">
         <li><a class="footer-item" href="index.html">HOME</a></li>
